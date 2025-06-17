@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3542E57E-8FAD-48F1-83E0-C747B9EB6541}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7DB94F59-DBFF-4073-995C-5402A214D7FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{611B1C39-C822-47E6-BEBA-BDE88267D841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordine", "Ordine\Ordine\Ordine.csproj", "{DE241E80-0D97-4AEC-BF39-DAA272DE110A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordine.Client", "Ordine\Ordine.Client\Ordine.Client.csproj", "{949B969E-5A70-4C1B-A6C2-39DA5ACDB198}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE241E80-0D97-4AEC-BF39-DAA272DE110A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE241E80-0D97-4AEC-BF39-DAA272DE110A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE241E80-0D97-4AEC-BF39-DAA272DE110A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE241E80-0D97-4AEC-BF39-DAA272DE110A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949B969E-5A70-4C1B-A6C2-39DA5ACDB198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949B969E-5A70-4C1B-A6C2-39DA5ACDB198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949B969E-5A70-4C1B-A6C2-39DA5ACDB198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949B969E-5A70-4C1B-A6C2-39DA5ACDB198}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE241E80-0D97-4AEC-BF39-DAA272DE110A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{949B969E-5A70-4C1B-A6C2-39DA5ACDB198} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE0870BF-E15D-40DD-AC6B-D22C17103FDA}
+	EndGlobalSection
+EndGlobal
