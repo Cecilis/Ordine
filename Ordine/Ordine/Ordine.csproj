@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Ordine.Client\Ordine.Client.csproj" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.17" />
   </ItemGroup>
 
 </Project>
