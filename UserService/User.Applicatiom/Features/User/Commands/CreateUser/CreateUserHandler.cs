@@ -1,3 +1,3 @@
-﻿namespace User.Application.Features.User.Commands.SocialLogin
+﻿namespace UserApplication.Features.User.Commands.SocialLogin
 {
 }

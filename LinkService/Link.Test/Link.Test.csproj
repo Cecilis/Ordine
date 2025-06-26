@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Link.Application\Link.Application.csproj" />
+    <ProjectReference Include="..\LinkApplication\LinkApplication.csproj" />
     <ProjectReference Include="..\Link.Domain\Link.Domain.csproj" />
   </ItemGroup>
 

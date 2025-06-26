@@ -1,5 +1,5 @@
-﻿using Board.Application.Common.Abstractions.Persistence;
-using Board.Domain.Entities;
+﻿using BoardApplication.Common.Abstractions.Persistence;
+using Domain.Entities;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;

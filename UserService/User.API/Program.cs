@@ -1,12 +1,12 @@
-using Board.Application.Common.Abstractions.Persistence;
+using BoardApplication.Common.Abstractions.Persistence;
 using SharedKernel.Messaging;
 using User.Applicatiom.Common.Abstractions.Authentication;
 using User.Applicatiom.Common.Abstractions.Security;
-using User.Application.Features.User.Commands.SocialLogin;
-using User.Application.Features.User.Commands.CreateUser;
+using UserApplication.Features.User.Commands.SocialLogin;
+using UserApplication.Features.User.Commands.CreateUser;
 using User.Infrastructure.Auth;
 using User.Infrastructure.Security;
-using User.Application.Common.Abstractions.Persistence;
+using UserApplication.Common.Abstractions.Persistence;
 using User.Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);

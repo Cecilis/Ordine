@@ -1,8 +1,8 @@
-﻿using Board.Application.Features.Board.Commands.CreateBoard;
+﻿using BoardApplication.Features.Board.Commands.CreateBoard;
 using Microsoft.AspNetCore.Mvc;
 using SharedKernel.Messaging;
 
-namespace Board.API.Controllers
+namespace BoardAPI.Controllers
 {
     [ApiController]
     [Route("api/boards")]

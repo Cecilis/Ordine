@@ -1,6 +1,6 @@
 ﻿using User.Domain.Entities;
 
-namespace User.Application.Common.Abstractions.Persistence
+namespace UserApplication.Common.Abstractions.Persistence
 {
     public interface IUserRepository
     {

@@ -1,6 +1,6 @@
-﻿using Board.Domain.Entities;
+﻿using Domain.Entities;
 
-namespace Board.Application.Common.Abstractions.Persistence
+namespace BoardApplication.Common.Abstractions.Persistence
 {
     public interface IBoardRepository
     {

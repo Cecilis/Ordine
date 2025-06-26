@@ -1,5 +1,5 @@
-using Board.Application.Common.Abstractions.Persistence;
-using Board.Application.Features.Board.Commands.CreateBoard;
+using BoardApplication.Common.Abstractions.Persistence;
+using BoardApplication.Features.Board.Commands.CreateBoard;
 using Board.Persistence.Repositories;
 using MongoDB.Driver;
 using SharedKernel.Messaging;

@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\SharedKernel.Messaging\SharedKernel.Messaging.csproj" />
-    <ProjectReference Include="..\Node.Application\Node.Application.csproj" />
+    <ProjectReference Include="..\NodeApplication\NodeApplication.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-namespace Node.API
+namespace NodeAPI
 {
     public class WeatherForecast
     {

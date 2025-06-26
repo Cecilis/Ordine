@@ -1,8 +1,8 @@
-﻿using Board.Application.Common.Abstractions.Persistence;
+﻿using BoardApplication.Common.Abstractions.Persistence;
 using SharedKernel.Messaging;
-using Board.Domain.Entities;
+using Domain.Entities;
 
-namespace Board.Application.Features.Board.Commands.CreateBoard
+namespace BoardApplication.Features.Board.Commands.CreateBoard
 {
     public class CreateBoardHandler : ICommandHandler<CreateBoardCommand, Guid>
     {

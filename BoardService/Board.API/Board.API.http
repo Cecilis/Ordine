@@ -1,6 +1,6 @@
-@Board.API_HostAddress = http://localhost:5105
+@BoardAPI_HostAddress = http://localhost:5105
 
-GET {{Board.API_HostAddress}}/boards/
+GET {{BoardAPI_HostAddress}}/boards/
 Accept: application/json
 
 ###

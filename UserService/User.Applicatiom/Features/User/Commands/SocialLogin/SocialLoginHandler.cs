@@ -1,10 +1,10 @@
 ﻿using SharedKernel.Messaging;
 using User.Applicatiom.Common.Abstractions.Authentication;
 using User.Applicatiom.Common.Abstractions.Security;
-using User.Application.Common.Abstractions.Persistence;
+using UserApplication.Common.Abstractions.Persistence;
 using User.Domain.Entities;
 
-namespace User.Application.Features.User.Commands.SocialLogin
+namespace UserApplication.Features.User.Commands.SocialLogin
 {
     public class SocialLoginHandler : ICommandHandler<SocialLoginCommand, string>
     {

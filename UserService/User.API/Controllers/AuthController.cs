@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using SharedKernel.Messaging;
-using User.Application.Features.User.Commands.SocialLogin;
+using UserApplication.Features.User.Commands.SocialLogin;
 
-namespace User.API.Controllers
+namespace UserAPI.Controllers
 {
     [ApiController]
     [Route("api/auth")]

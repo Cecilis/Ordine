@@ -1,4 +1,4 @@
-namespace Link.API
+namespace LinkAPI
 {
     public class WeatherForecast
     {

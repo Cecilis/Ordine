@@ -1,5 +1,5 @@
 ﻿using MongoDB.Driver;
-using User.Application.Common.Abstractions.Persistence;
+using UserApplication.Common.Abstractions.Persistence;
 using User.Domain.Entities;
 
 namespace User.Persistence.Repositories

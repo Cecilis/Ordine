@@ -1,6 +1,6 @@
-@Node.API_HostAddress = http://localhost:5162
+@NodeAPI_HostAddress = http://localhost:5162
 
-GET {{Node.API_HostAddress}}/weatherforecast/
+GET {{NodeAPI_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

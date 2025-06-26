@@ -1,4 +1,4 @@
-﻿namespace Board.Domain.Entities
+﻿namespace Domain.Entities
 {
     public class TBoard
     {
